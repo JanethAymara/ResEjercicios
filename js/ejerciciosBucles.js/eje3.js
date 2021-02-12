@@ -10,9 +10,6 @@ do {
     bandas.push(prompt("TOP Bandas favoritas"));
     if (!confirm(mensaje)) {
         bandera = false;
-        if (bandas[c] == "Cancel") {
-            bandas.splice(c, 1);
-        }
     }
     c++;
 } while (bandera);
