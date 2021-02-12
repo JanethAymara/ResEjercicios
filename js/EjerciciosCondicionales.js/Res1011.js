@@ -1,3 +1,8 @@
+/*10.- Escribe un programa que pida un número y nos diga si es divisible por 2,
+3, 5 o 7 (sólo hay que comprobar si lo es por uno de los cuatro)
+11.- Añadir al ejercicio anterior que nos diga por cuál de los cuatro es divisible
+(hay que decir todos por los que es divisible)*/
+
 let num = parseInt(prompt("Escribe un número, te diré si es divisible en 2, 3, 5 o 7"));
 document.write("Tu número es: " + num)
 

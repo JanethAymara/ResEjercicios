@@ -1,17 +1,5 @@
-/* document.write("Tu frase es: " + frase);
-document.write("<br>Tiene " + frase.length + " caracteres, incluidos los espacios.")
-
-for (let f = 0; f < frase.length; f++) {
-
- */
-
-
-/*(let i = 0; i<frase.length; i++);
-document.write("Tu frase tiene")*/
-
-/*if ((frase.substr = (0, 1) == "a") || (frase.substr = (0, 1) == "e") || (frase.substr = (0, 1) == "i") ||
-(frase.substr = (0, 1) == "o") || (frase.substr = (0, 1) == "u"));
-document.write("Tiene " + frase.substr(f, 1) + " vocales.");*/
+/* 9.- Escribe un programa que pida una frase y escriba las vocales que
+aparecen*/
 
 
 let frase = prompt("Ingresa una frase.");
@@ -31,5 +19,5 @@ for (let i = 0; i < frase.length; i++) { //contador
         guardavocales += frase.substr(i, 1);
     }
 }
-document.write("Tu frase tiene las siguientes vocales: " + guardavocales);
+document.write(`Tu frase es: "${frase}" <br>Y tiene las siguientes vocales: "${guardavocales}`);
 //document.write("<br>Tu frase tiene: " + guardavocales.length + " vocales");

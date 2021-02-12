@@ -25,4 +25,4 @@ for (let i = 0; i < frase.length; i++) {
     }
 }
 
-document.write("Tu frase tiene " + guardavocales.length + "." + "<br>Tiene " + guardaconsonantes.length + "consonantes")
+document.write(`Tu frase es "${frase}". <br> Tiene "${guardavocales.length}" vocales.<br>Tiene "${guardaconsonantes.length}" consonantes`)
